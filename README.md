@@ -1,54 +1,34 @@
-<!-- This is my readme practice -->
-# Installation:
+<!DOCTYPE html>
+<html>
 
-<img src="https://scontent.fdac27-1.fna.fbcdn.net/v/t1.6435-9/189032871_108910978084019_2190963795800275972_n.png?_nc_cat=103&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeG0cftQ_xOtNsMla8OYLlRKnQx3Kiv1seudDHcqK_Wx65iCB85nNbtZ3TkUqk7Ugv_6wG2cKdgpTn6jRT8_3xfe&_nc_ohc=9SaOqxO3mzYAX8KCUyY&_nc_ht=scontent.fdac27-1.fna&oh=00_AT85SGxYrBfePBSYZwXqTTP7sA8BM-8iISg6bP7x8d9Few&oe=61D6F268" title="WebPane" style="border:2px solid #fff;border-radius:20px;">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script data-require="bootstrap@3.1.1" data-semver="3.1.1" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script data-require="marked@*" data-semver="0.3.1" src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.1/marked.js"></script>
+  <script src="https://cdn.rawgit.com/toopay/bootstrap-markdown/master/js/bootstrap-markdown.js
+"></script>
+  <script src="https://rawgit.com/lodev09/jquery-filedrop/master/jquery.filedrop.js
+"></script>
+  <script src="https://rawgit.com/jeresig/jquery.hotkeys/master/jquery.hotkeys.js"></script>
 
-> <p style="color:gold;margin-top:20px;"><i>Amar sonar bangla ami tomay valobashi<i>Chirodin tomar akash..</p>
+  <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  <link data-require="fontawesome@4.1.0" data-semver="4.1.0" rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/toopay/bootstrap-markdown/master/css/bootstrap-markdown.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
 
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Bootstrap Markdown DEMO</h1>
+      <button class="btn btn-success">Next</button>
+      <br />
+      <div id="comment-md-preview-container">
+        <div class="well well-sm well-light md-preview margin-top-10" id="comment-md-preview"></div>
+      </div>
+    </div>
+  </div>
+</body>
 
-<mark style="padding:10px;color:green;background-color:black;border-radius:10px;margin-top:20px;display:block;">You must use `span` after it.</mark>
-
-<p style="text-align:justify;margin-bottom:10px;">These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
-
-<strong>Use this json code:</strong>
-
-```json
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
-### This is table:
-
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-### Footnote:
-
-Here's a sentence with a footnote.[^1]
-
-[^1]: This is the footnote.
-
-### My Great Heading {#custom-id}
-
-Lux
-: Lux is the measure of light
-
-~~The world is flat.~~
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-That is so funny! :joy:
-
-I need to highlight these ==very important words==.
-
-H~2~O
-
-X^2^
+</html>
